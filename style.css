@@ -48,6 +48,12 @@ body {
     color: #5E5E5E;
 }
 
+button { 
+    background-color: transparent; 
+    border: none;
+    outline: none;
+} 
+
 .box {
     height: auto;
     padding: 20px;
@@ -88,3 +94,10 @@ h1 {
     width: 100%;
     min-height: 500px;
 }
+
+.hamburger {
+    width: 20px;
+    height: 5px;
+    background-color: #00CADE;
+    margin: 1px 0;
+  }
