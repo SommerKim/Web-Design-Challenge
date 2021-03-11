@@ -26,6 +26,11 @@ body {
     font-weight: 800;
 }
 
+.nav-item {
+    animation-name: background-color; 
+    animation-duration: 500ms; 
+}
+
 .box {
     height: auto;
     padding: 20px;
@@ -74,7 +79,33 @@ h1 {
     min-height: 500px;
 }
 
-button:hover { 
+.nav-item a:hover {
+    color: #5E5E5E;
+    background-color: #DFE0E0; 
+}
+
+.navbar-brand:hover {
+    color: #FEFEFE;
+    box-shadow: 2px 2px #DFE0E0;
+}
+
+/* .links a { 
+    color: green; 
+    padding: 5px 16px; 
+    text-decoration: none; 
+    font-size: 17px; 
+    display: block; 
+    text-align: center; 
+    border-bottom: 1px solid white; 
+} 
+
+.links a:hover { 
+    background-color: green; 
+    color: white; 
+}  */
+
+
+/* button:hover { 
     animation-name: background-color; 
     animation-duration: 500ms; 
 } 
@@ -83,4 +114,4 @@ button:hover {
     100% { 
         background-color: #4065F3; 
     } 
-} 
+}  */

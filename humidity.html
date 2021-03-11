@@ -12,9 +12,45 @@
 
 <body>
 
+    <nav class="navbar navbar-expand-lg navbar-white bg-white">
+        <div class="d-flex">
+            <a class="navbar-brand" href="./index.html">
+                Latitude
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse flex-grow-1">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="./max_temp.html">Max Temperature</a>
+                      <a class="dropdown-item" href="#">Humidity</a>
+                      <a class="dropdown-item" href="./cloudiness.html">Cloudiness</a>
+                      <a class="dropdown-item" href="./wind.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./comparisons.html" type="button">
+                        Comparisons
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./data.html" type="button">
+                        Data
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-7 box">
+            <div class="col-12 col-lg-7 box">
                 <div class="row">
                     <div class="col">
                         <h1>Humidity</h1>
@@ -25,30 +61,32 @@
                 </div>
                 <div class="row">
                     <div class="col">
-                        <p>Here is a pithy explanation of the data you are viewing.
+                        <p>This graph shows no correlation between humidity and latitudinal location. Humidity is just
+                            water vapor in the air, which comes from the evaporation of bodies of water in an area. The 
+                            more water in an area (in the form of lakes, oceans, rivers), the more water that can evaporate
+                            and become water vapor. Given equivalent amounts of water in an area, warmer areas tend to be more 
+                            humid than cool areas because heat causes water to evaporate faster.
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-lg-4">
                 <div class="row">
                     <div class="col box">
                         <h1>Visualizations</h1>
                         <hr>
                         <div class="row">
-                            <div class="col-3 col-md-6">
-                                <a href="visualizations/cloudiness.html"><img src="./Images/city_lat_vs_cloudiness.PNG" class="nested-image"/>
+                            <div class="col-3 col-lg-6">
+                                <a href="./cloudiness.html"><img src="./Images/city_lat_vs_cloudiness.PNG" class="nested-image"/>
                             </div>
-                            <div class="col-3 col-md-6">
-                                <a href="visualizations/humidity.html"><img style="border:2px solid #00CADE" src="./Images/city_lat_vs_humidity.PNG" class="nested-image"/>
+                            <div class="col-3 col-lg-6">
+                                <a href="./humidity.html"><img src="./Images/city_lat_vs_humidity.PNG" class="nested-image"/>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-3 col-md-6">
-                                <a href="visualizations/max_temp.html"><img src="./Images/city_lat_vs_max_temp.PNG" class="nested-image"/>
+                            <div class="col-3 col-lg-6">
+                                <a href="./max_temp.html"><img src="./Images/city_lat_vs_max_temp.PNG" class="nested-image"/>
                             </div>
-                            <div class="col-3 col-md-6">
-                                <a href="visualizations/wind.html"><img src="./Images/city_lat_vs_wind_speed.PNG" class="nested-image"/>
+                            <div class="col-3 col-lg-6">
+                                <a href="./wind.html"><img src="./Images/city_lat_vs_wind_speed.PNG" class="nested-image"/>
                             </div>
                         </div>
                     </div>
