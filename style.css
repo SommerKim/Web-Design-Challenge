@@ -13,12 +13,9 @@
     color: #FEFEFE !important;
     font-weight: 800;
     }
-    .navbar-brand {
-        color: #00CADE !important;
-        background-color: #FEFEFE !important;
-        }
-    
-
+    .dropdown-menu.show {
+        background-color: #00CADE !important;
+    }
 }
 
 @media (min-width: 769px) {
@@ -80,6 +77,7 @@ button {
     background-color: #FEFEFE;
     margin: 10px;
     margin-top: 40px;
+    /* width: 100%; */
   }
 
 h1 {
